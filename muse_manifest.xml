@@ -1,0 +1,75 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shedaniel.me" resolutions="1x,2x" timestamp="1529917657365">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_a-master.css" crc="244831450" ref="index:downloads"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index"/>
+    <file name="index.css" crc="3920688160" ref="index"/>
+    <file name="nomq_index.css" crc="3995367168" ref="index"/>
+    <file name="downloads.css" crc="95271076" ref="downloads"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:downloads"/>
+    <file name="museutils.js" crc="3803043152" ref="index:downloads"/>
+    <file name="whatinput.js" crc="86476730" ref="index:downloads"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:downloads"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:downloads"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index:downloads"/>
+  </folder>
+  <folder name="images">
+    <file name="u110-4.png" crc="4171946248" ref="index:downloads"/>
+    <file name="u110-4_2x.png" crc="4021414136" ref="index:downloads"/>
+    <file name="green_yellow_bg_detail.jpg" crc="4271826746" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:downloads"/>
+    <file name="u146-4.png" crc="141422105" ref="index:downloads"/>
+    <file name="u146-4_2x.png" crc="433850022" ref="index:downloads"/>
+    <file name="u868.png" crc="3771321846" ref="downloads"/>
+    <file name="u868_2x.png" crc="259404826" ref="downloads"/>
+    <file name="u868-r.png" crc="213453673" ref="downloads"/>
+    <file name="u868-r_2x.png" crc="39434351" ref="downloads"/>
+    <file name="u874.png" crc="293040030" ref="downloads"/>
+    <file name="u874_2x.png" crc="243246455" ref="downloads"/>
+    <file name="u874-r.png" crc="349832312" ref="downloads"/>
+    <file name="u874-r_2x.png" crc="488147185" ref="downloads"/>
+    <file name="u706-22.png" crc="27973451" ref="downloads"/>
+    <file name="u706-22_2x.png" crc="490866763" ref="downloads"/>
+    <file name="u718.png" crc="278806703" ref="downloads"/>
+    <file name="u718_2x.png" crc="36034487" ref="downloads"/>
+    <file name="u718-r.png" crc="137836220" ref="downloads"/>
+    <file name="u718-r_2x.png" crc="4011412990" ref="downloads"/>
+    <file name="u724.png" crc="134470898" ref="downloads"/>
+    <file name="u724_2x.png" crc="36146915" ref="downloads"/>
+    <file name="u724-r.png" crc="47781482" ref="downloads"/>
+    <file name="u724-r_2x.png" crc="4258880367" ref="downloads"/>
+    <file name="u730.png" crc="449783988" ref="downloads"/>
+    <file name="u730_2x.png" crc="4159972341" ref="downloads"/>
+    <file name="u730-r.png" crc="355963607" ref="downloads"/>
+    <file name="u730-r_2x.png" crc="100577678" ref="downloads"/>
+    <file name="u736.png" crc="14137307" ref="downloads"/>
+    <file name="u736_2x.png" crc="3897261929" ref="downloads"/>
+    <file name="u736-r.png" crc="4222107206" ref="downloads"/>
+    <file name="u736-r_2x.png" crc="27822141" ref="downloads"/>
+    <file name="u748.png" crc="158216203" ref="downloads"/>
+    <file name="u748_2x.png" crc="3855339635" ref="downloads"/>
+    <file name="u748-r.png" crc="130492900" ref="downloads"/>
+    <file name="u748-r_2x.png" crc="243185209" ref="downloads"/>
+    <file name="u754.png" crc="4070804863" ref="downloads"/>
+    <file name="u754_2x.png" crc="4151793553" ref="downloads"/>
+    <file name="u754-r.png" crc="3793634012" ref="downloads"/>
+    <file name="u754-r_2x.png" crc="4026415789" ref="downloads"/>
+    <file name="u886-5.png" crc="4197606733" ref="downloads"/>
+    <file name="u886-5_2x.png" crc="406970677" ref="downloads"/>
+    <file name="u898.png" crc="4155263018" ref="downloads"/>
+    <file name="u898_2x.png" crc="4275918718" ref="downloads"/>
+    <file name="u898-r.png" crc="389855753" ref="downloads"/>
+    <file name="u898-r_2x.png" crc="4028810996" ref="downloads"/>
+    <file name="u664-5.png" crc="3785470096" ref="downloads"/>
+    <file name="u664-5_2x.png" crc="68146838" ref="downloads"/>
+  </folder>
+  <file name="index.html" crc="436876441" seo="true" mt="1519118483749" redirect="true"/>
+  <file name="downloads.html" crc="3786390557" seo="true" mt="1529917562039" redirect="true"/>
+</manifest>
