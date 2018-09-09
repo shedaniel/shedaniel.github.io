@@ -1,39 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Idk but this is useless</title>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-</head>
-<body>
-    <h1>Hello World</h1>
-    <p>This website is useless but I wanna play with reCAPTCHA.</p>
-    <div class="form-group">
-            <div class="g-recaptcha" 
-            data-sitekey="6LclO28UAAAAAKxiwaP56TK4kQMmtXNu9PBkZ7DW"
-            data-callback="recaptchaCallback"></div>
-    </div>
-    <button id="sendbtn" onclick="onClick()">Send</button>
-    <script>var doneCaptura = false; 
+<html>
+<title>Daniel's website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body,
+    h1 {
+        font-family: "Raleway", sans-serif
+    }
 
-            function onClick() {
-                let message = document.getElementById('donemessage');
-                message.style.fontSize = "12px";
-                if (!doneCaptura) {
-                    message.innerHTML = "You need to finish the reCAPCHA to continue!";
-                    message.style.color = 'red';
-                } else {
-                    message.innerHTML = "Done!";
-                    message.style.color = 'black';
-                    window.location.href = 'downloads.html';
-                }
-            }
-            
-            function recaptchaCallback() {
-                doneCaptura = true;
-            }</script>
-    <p id="donemessage"></p>
+    body,
+    html {
+        height: 100%
+    }
+
+    .bgimg {
+        background-color: black;
+        min-height: 100%;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: rgba(33, 33, 33, 0.9);
+        color: #ffffff;
+        display: block;
+        font: 14px/1.3 Arial, sans-serif;
+        height: 50px;
+        position: relative;
+        z-index: 5;
+    }
+
+    h2 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    header h2 {
+        font-size: 22px;
+        margin: 0 auto;
+        padding: 10px 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    header a,
+    a:visited {
+        text-decoration: none;
+        color: #fcfcfc;
+    }
+
+    @keyframes move-twink-back {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: -10000px 5000px;
+        }
+    }
+
+    @-webkit-keyframes move-twink-back {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: -10000px 5000px;
+        }
+    }
+
+    @-moz-keyframes move-twink-back {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: -10000px 5000px;
+        }
+    }
+
+    @-ms-keyframes move-twink-back {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: -10000px 5000px;
+        }
+    }
+
+    @keyframes move-clouds-back {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: 10000px 0;
+        }
+    }
+
+    @-webkit-keyframes move-clouds-back {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: 10000px 0;
+        }
+    }
+
+    @-moz-keyframes move-clouds-back {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: 10000px 0;
+        }
+    }
+
+    @-ms-keyframes move-clouds-back {
+        from {
+            background-position: 0;
+        }
+        to {
+            background-position: 10000px 0;
+        }
+    }
+
+    .stars,
+    .twinkling,
+    .clouds {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .stars {
+        background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+        z-index: 0;
+    }
+
+    .twinkling {
+        background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+        z-index: 1;
+
+        -moz-animation: move-twink-back 200s linear infinite;
+        -ms-animation: move-twink-back 200s linear infinite;
+        -o-animation: move-twink-back 200s linear infinite;
+        -webkit-animation: move-twink-back 200s linear infinite;
+        animation: move-twink-back 200s linear infinite;
+    }
+
+    .clouds {
+        background: transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+        z-index: 3;
+
+        -moz-animation: move-clouds-back 200s linear infinite;
+        -ms-animation: move-clouds-back 200s linear infinite;
+        -o-animation: move-clouds-back 200s linear infinite;
+        -webkit-animation: move-clouds-back 200s linear infinite;
+        animation: move-clouds-back 200s linear infinite;
+    }
+</style>
+
+<body>
+    <div class="stars"></div>
+    <div class="clouds"></div>
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+        <div class="w3-display-topleft w3-padding-large w3-xlarge">
+            <img src="300x.png" style="width:70px;height:70px;">
+        </div>
+        <div class="w3-display-middle">
+            <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+            <hr class="w3-border-grey" style="margin:auto;width:40%">
+            <p class="w3-large w3-center">Daniel's website</p>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
