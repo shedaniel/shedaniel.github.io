@@ -1,0 +1,170 @@
+<html>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+@import "https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css";
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#buttons {
+    border-radius: 5px;
+    padding: 14px 7px;
+    background: white;
+    width: 660px;
+    overflow: hidden;
+    margin: auto auto auto;
+    box-shadow:0 2px 3px rgba(71, 71, 71, 0.31);
+}
+
+.button {
+    background: #DCE0E0;
+    position: relative;
+    display: block;
+    float: left;
+    height: 40px;
+    margin: 0 7px;
+    overflow: hidden;
+    width: 150px;
+    border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.icon {
+    display: block;
+    float: left;
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    vertical-align: top;
+    width: 38px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-radius: 3px 0px 0px 3px;
+    border-radius: 3px 0px 0px 3px;
+    text-align: center;
+}
+
+.icon i {
+    color: #fff;
+    line-height: 42px;
+}
+
+.slide {
+    z-index: 2;
+    display: block;
+    margin: 0;
+    height: 100%;
+    left: 38px;
+    position: absolute;
+    width: 112px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.slide p {
+    font-family: Open Sans;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    border-left: 1px solid #fff;
+    border-left: 1px solid rgba(255,255,255,0.35);
+    color: #fff;
+    font-size: 16px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    width: 100%;
+}
+
+.button .slide {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover .slide {
+    filter: brightness(110%);
+}
+
+.github .icon, .github .slide {
+    background: #24292e;
+}
+
+.twitter .icon, .twitter .slide {
+    background: #00cdff;
+}
+
+.patreon .icon, .patreon .slide {
+    background: #e64413;
+}
+
+.discord .icon, .discord .slide {
+    background: #7289da;
+}
+    </style>
+    <body>
+        <div id="buttons">
+            <div class="github button">
+              <i class="icon">
+                <i class="fa fa-github">
+              </i>
+            </i>
+            <div class="slide" onclick="location.href='https://github.com/shedaniel';" style="cursor: pointer;">
+                <p>github</p>
+            </div>
+            </div>
+            
+            <div class="twitter button">
+              <i class="icon">
+                <i class="fa fa-twitter">
+              </i>
+            </i>
+            <div class="slide" onclick="location.href='https://twitter.com/shedaniel_';" style="cursor: pointer;">
+                <p>twitter</p>
+            </div>
+            </div>
+            
+            <div class="patreon button">
+              <i class="icon">
+                <i class="fa fa-patreon">
+              </i>
+            </i>
+            <div class="slide" onclick="location.href='https://patreon.com/shedaniel';" style="cursor: pointer;">
+              <p>patreon</p>
+            </div>
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium">
+            </div>
+            </div>
+            
+            
+            <div class="discord button">
+              <i class="icon">
+                <i class="fa fa-discord">
+              </i>
+            </i>
+            <div class="slide" onclick="location.href='https://discord.gg/rbxu4Fk';" style="cursor: pointer;">
+                <p>discord</p>
+            </div>
+            </div>
+          </div>          
+    </body>
+</html>
